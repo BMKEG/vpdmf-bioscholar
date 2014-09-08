@@ -1,0 +1,7 @@
+.DS_Store
+.history
+.project
+.settings
+/target
+*.mdr
+*.bak

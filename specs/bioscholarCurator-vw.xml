@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view name="BioScholarCurator" type="Data">
+	<primitives>
+		<primitive name="BioScholarCurator" >
+			<classes>
+				<class name="Person"/>
+				<class name="BioScholarCurator"/>
+			</classes>
+		</primitive>
+	</primitives>
+	<vpdmfLabel format="$1$ $2$" />
+	<indexElements>
+		<indexElement pos="1" p="BioScholarCurator" c="Person" a="initials" />
+		<indexElement pos="2" p="BioScholarCurator" c="Person" a="surname" />
+	</indexElements>
+</view>

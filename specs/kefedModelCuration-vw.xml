@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<view name="KefedModelCuration" type="Data" editable="false">
+	<primitives>
+		<primitive name="KefedModelCuration" >
+			<classes>
+				<class name="KefedModelCuration"/>
+			</classes>
+			<pvLinks>
+				<pvLink c1="KefedModelCuration" role="doc" pv2="FTDFragment" c2="FTDFragment"/>
+				<pvLink c1="KefedModelCuration" role="kefedModel" pv2="KefedModel" c2="KefedModel"/>
+				<pvLink c1="KefedModelCuration" role="curator" pv2="BioScholarCurator" c2="BioScholarCurator"/>
+			</pvLinks>
+		</primitive>
+		<primitive name="FTDFragment">
+			<classes>
+				<class name="ViewTable"/>
+				<class name="FTDFragment"/>
+			</classes>
+		</primitive>
+		<primitive name="KefedModel">
+			<classes>
+				<class name="ViewTable"/>
+				<class name="KefedModel"/>
+			</classes>
+		</primitive>
+		<primitive name="BioScholarCurator" nullable="true">
+			<classes>
+				<class name="ViewTable"/>
+				<class name="Person"/>
+				<class name="BioScholarCurator"/>
+			</classes>
+		</primitive>
+		
+	</primitives>
+	<vpdmfLabel format="$1$ $2$" />
+	<indexElements>
+		<indexElement pos="1" p="KefedModel" c="ViewTable" a="vpdmfLabel" />
+		<indexElement pos="2" p="FTDFragment" c="ViewTable" a="vpdmfLabel" />
+	</indexElements>
+</view>
