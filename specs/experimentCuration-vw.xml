@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<view name="KefedModelCuration" type="Data">
+<view name="ExperimentCuration" type="Data">
 	<primitives>
-		<primitive name="KefedModelCuration" >
+		<primitive name="ExperimentCuration" >
 			<classes>
 				<class name="Curation"/>
 				<class name="KefedModelCuration"/>
 			</classes>
 			<pvLinks>
 				<pvLink c1="Curation" role="doc" pv2="FTDFragment" c2="FTDFragment"/>
-				<pvLink c1="KefedModelCuration" role="kefedModel" pv2="KefedModel" c2="KefedModel"/>
+				<pvLink c1="ExperimentCuration" role="experiment" pv2="Experiment" c2="Experiment"/>
 			</pvLinks>
 		</primitive>
 		<primitive name="FTDFragment">
@@ -17,17 +17,17 @@
 				<class name="FTDFragment"/>
 			</classes>
 		</primitive>
-		<primitive name="KefedModel">
+		<primitive name="Experiment">
 			<classes>
 				<class name="ViewTable"/>
-				<class name="KefedModel"/>
+				<class name="Experiment"/>
 			</classes>
 		</primitive>
 		
 	</primitives>
 	<vpdmfLabel format="$1$ $2$" />
 	<indexElements>
-		<indexElement pos="1" p="KefedModel" c="ViewTable" a="vpdmfLabel" />
+		<indexElement pos="1" p="Experiment" c="ViewTable" a="vpdmfLabel" />
 		<indexElement pos="2" p="FTDFragment" c="ViewTable" a="vpdmfLabel" />
 	</indexElements>
 </view>

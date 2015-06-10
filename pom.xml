@@ -16,13 +16,13 @@
  	<properties>
 		<vpdmf.model.type>MagicDraw</vpdmf.model.type>
 		<vpdmf.model.path>vpdmf-bioscholar.xml</vpdmf.model.path>
-		<vpdmf.viewsPath>specs</vpdmf.viewsPath>
+		<vpdmf.model.url>http://bmkeg.isi.edu/bioscholar</vpdmf.model.url>
 		<vpdmf.uimaPkgPattern>.model.</vpdmf.uimaPkgPattern>
     	<vpdmf.data.path>sheets</vpdmf.data.path>
     	<vpdmf.data.type>txt</vpdmf.data.type>
+		<vpdmf.viewsPath>specs</vpdmf.viewsPath>
 		<vpdmf.nestedModels>${basedir}/../vpdmf-people/ ${basedir}/../vpdmf-terminology/ ${basedir}/../vpdmf-ftd/ ${basedir}/../vpdmf-digitalLibrary/ ${basedir}/../vpdmf-ooevv ${basedir}/../vpdmf-kefed</vpdmf.nestedModels>  	
  	</properties>
-  
   
   	<build>
  		<plugins>
